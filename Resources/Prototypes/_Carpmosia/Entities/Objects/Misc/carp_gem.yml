@@ -1,0 +1,12 @@
+- type: entity
+  parent: BaseItem
+  id: CarpGem
+  name: carpgem
+  description: For just 3 carpgem you can buy the entirety of carpspace.
+  components:
+  - type: Sprite
+    sprite: _Carpmosia/Objects/Misc/carp_gem.rsi
+    state: icon
+  - type: Tool
+    qualities:
+    - Carping

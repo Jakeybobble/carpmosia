@@ -4,3 +4,10 @@
   toolName: tool-quality-axing-tool-name
   spawn: FireAxe
   icon: { sprite: Objects/Weapons/Melee/fireaxe.rsi, state: icon }
+
+- type: tool
+  id: Carping
+  name: Carping
+  toolName: Carping Tool
+  spawn: CarpGem
+  icon: { sprite: _Carpmosia/Objects/Misc/carp_gem.rsi, state: icon }
