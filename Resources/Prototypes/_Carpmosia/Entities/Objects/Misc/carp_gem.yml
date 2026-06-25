@@ -10,3 +10,13 @@
   - type: Tool
     qualities:
     - Carping
+
+- type: entity
+  parent: CarpGem
+  id: AtakkuGem
+  name: atakkugem
+  description: Atakku has been put in gem jail for merging your PR.
+  components:
+  - type: Sprite
+    sprite: _Carpmosia/Objects/Misc/carp_gem.rsi
+    state: atakku
