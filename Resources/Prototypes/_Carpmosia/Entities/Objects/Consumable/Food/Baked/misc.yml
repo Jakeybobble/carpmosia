@@ -1,0 +1,36 @@
+- type: entity
+  parent: FoodInjectableBase
+  id: FoodBakedMoffin
+  name: moffin
+  description: A tiny delicious cotton cake!
+  components:
+  - type: Edible
+    requiresSpecialDigestion: true
+    trash:
+    - FoodPlateMuffinTin
+  - type: Sprite
+    sprite: _Carpmosia/Objects/Consumable/Food/Baked/misc.rsi
+    state: moffin
+  - type: FlavorProfile
+    flavors:
+    - sweet
+    - cotton
+  - type: Item
+    size: Tiny
+  - type: Tag
+    tags:
+    - ClothMade
+
+- type: entity
+  parent: FoodBakedMoffin
+  id: FoodBakedMothMoffin
+  name: moth moffin
+  description: A fibrous cotton moffin resembling a moth!
+  components:
+  - type: Sprite
+    state: moth-moffin
+  - type: Solution
+    solutions:
+      reagents:
+      - ReagentId: Fiber
+        Quantity: 5
